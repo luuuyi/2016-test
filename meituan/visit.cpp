@@ -27,8 +27,8 @@ private:
 			if(map[y1][j]==-1)	is_invalid = true;
 			map[y1][j] = is_invalid?0:1;
 		}
-		for(int i=y1+1;i!=y2+is_down;i+=is_down){
-			for(int j=x1+1;j!=x2+is_right;j+=is_right){
+		for(int i=y1+is_down;i!=y2+is_down;i+=is_down){
+			for(int j=x1+is_right;j!=x2+is_right;j+=is_right){
 				if(map[i][j]!=-1){
 					map[i][j] = map[i-is_down][j] + map[i][j-is_right];
 				}
