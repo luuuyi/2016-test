@@ -15,6 +15,9 @@
 
 ### **小米公司模拟**
 - [小米](https://www.nowcoder.com/ta/2016test?page=1) >> xiaomi
+
+### **百度模拟**
+- [百度](https://www.nowcoder.com/ta/2016test?page=2) >> baidu
 ***
 ## **备注**
 相应的解题思路会放在代码里面作为注释注解
