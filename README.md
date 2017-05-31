@@ -18,6 +18,9 @@
 
 ### **百度模拟**
 - [百度](https://www.nowcoder.com/ta/2016test?page=2) >> baidu
+
+### **蘑菇街模拟**
+- [蘑菇街](https://www.nowcoder.com/ta/2016test?page=2) >> mogujie
 ***
 ## **备注**
 相应的解题思路会放在代码里面作为注释注解
