@@ -8,7 +8,7 @@
 - [美团](https://www.nowcoder.com/ta/2016test?page=1) >> meituan
 
 ### **微软模拟**
-- [微软](https://www.nowcoder.com/ta/2016test?page=1) >> Microsoft
+- [微软](https://www.nowcoder.com/ta/2016test?page=1) >> Microsoft
 
 ### **去哪儿网模拟**
 - [去哪儿](https://www.nowcoder.com/ta/2016test?page=1) >> qunaer
@@ -21,6 +21,15 @@
 
 ### **蘑菇街模拟**
 - [蘑菇街](https://www.nowcoder.com/ta/2016test?page=2) >> mogujie
+
+### **华为模拟**
+- [华为](https://www.nowcoder.com/ta/2016test?page=2) >> huawei
+
+### **CVTE模拟**
+- [CVTE](https://www.nowcoder.com/ta/2016test?page=2) >> CVTE
+
+### **京东模拟**
+- [京东](https://www.nowcoder.com/ta/2016test?page=2) >> JD
 ***
 ## **备注**
 相应的解题思路会放在代码里面作为注释注解
