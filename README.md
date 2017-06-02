@@ -30,6 +30,9 @@
 
 ### **京东模拟**
 - [京东](https://www.nowcoder.com/ta/2016test?page=2) >> JD
+
+### **腾讯模拟**
+- [腾讯](https://www.nowcoder.com/ta/2016test?page=3) >> Tencent
 ***
 ## **备注**
 相应的解题思路会放在代码里面作为注释注解
