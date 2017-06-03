@@ -33,6 +33,19 @@
 
 ### **腾讯模拟**
 - [腾讯](https://www.nowcoder.com/ta/2016test?page=3) >> Tencent
+
+### **楚楚街模拟**
+- [楚楚街](https://www.nowcoder.com/ta/2016test?page=3) >> chuchujie
+- **楚楚街的编程题目还比较有挑战性，值得尝试**
+
+### **搜狐模拟**
+- [搜狐](https://www.nowcoder.com/ta/2016test?page=4) >> sohu
+
+### **网易模拟**
+- [网易](https://www.nowcoder.com/ta/2016test?page=4) >> NetEase
+
+### **随身云模拟**
+- [随身云](https://www.nowcoder.com/ta/2016test?page=4) >> suishenyun
 ***
 ## **备注**
 相应的解题思路会放在代码里面作为注释注解
