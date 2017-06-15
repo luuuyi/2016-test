@@ -1,6 +1,7 @@
 class Solution {
 private:
-    vector<vector<int>> res;
+    vector<int> res1;
+    vector<int> res2;
     void dfs(vector<string>& matrix, int cur, int indexA, int indexB, vector<int> tmp, vector<bool>& is_visit){
         int lens = matrix[cur].size();
         for(int i=0;i<lens;i++){
@@ -9,7 +10,9 @@ private:
             if(matrix[cur][i] == '0')   continue;
             tmp.push_back(i);
             is_visit[i] = true;
-            if(i == indexA || i == indexB)  res.push_back(tmp);
+            //这样写其实不对，只有根节点，然后A和B都是0的时候其实应该要有返回的
+            if(i == indexA)  res1 = tmp;
+            if(i == indexB)  res2 = tmp;
             dfs(matrix, i, indexA, indexB, tmp, is_visit);
             is_visit[i] = false;
             tmp.pop_back();
@@ -32,12 +35,13 @@ public:
         dfs(matrix, 0, indexA, indexB, tmp, is_visit);
         int i = 0;
         for(;i<lens;i++){
-            if(i < res[0].size() && i < res[1].size()){
-                if(res[0][i] == res[1][i])  continue;
+            if(i < res1.size() && i < res2.size()){
+                if(res1[i] == res2[i])  continue;
                 else    break;
             }
             else    break;
         }
-        return res[0][i-1];
+        if (i>0)    return res1[i-1];
+        else    return 0;
     }
 };
