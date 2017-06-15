@@ -2,10 +2,11 @@ class Solution {
 private:
     vector<vector<int>> res;
     void dfs(vector<string>& matrix, int cur, int indexA, int indexB, vector<int> tmp, vector<bool>& is_visit){
-        int lens = matrix[0].size();
+        int lens = matrix[cur].size();
         for(int i=0;i<lens;i++){
             if(i == cur)    continue;
             if(is_visit[i]) continue;
+            if(matrix[cur][i] == '0')   continue;
             tmp.push_back(i);
             is_visit[i] = true;
             if(i == indexA || i == indexB)  res.push_back(tmp);
